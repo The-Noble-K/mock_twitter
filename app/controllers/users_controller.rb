@@ -19,6 +19,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def edite
+    @user = User.find(params[:id])
+  end
+
   private
 
   def user_params
