@@ -2,3 +2,8 @@ jarod:
   name: Jarod Sneed
   email: jarod.sneed@gmail.com
   password_digest: <%= User.digest('password') %>
+
+tyrion:
+  name: Tyrion Lannister
+  email: tyrion@lannister.com
+  password_digest: <%= User.digest('password') %>
