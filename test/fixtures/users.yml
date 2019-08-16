@@ -7,3 +7,20 @@ tyrion:
   name: Tyrion Lannister
   email: tyrion@lannister.com
   password_digest: <%= User.digest('password') %>
+
+jon:
+  name: Jon Snow
+  email: jon@snow.com
+  password_digest: <%= User.digest('password') %>
+
+sam:
+  name: Samwell Tarly
+  email: sam@tarly.com
+  password_digest: <%= User.digest('password') %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name: <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>
