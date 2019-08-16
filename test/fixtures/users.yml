@@ -2,6 +2,7 @@ jarod:
   name: Jarod Sneed
   email: jarod.sneed@gmail.com
   password_digest: <%= User.digest('password') %>
+  admin: true
 
 tyrion:
   name: Tyrion Lannister
