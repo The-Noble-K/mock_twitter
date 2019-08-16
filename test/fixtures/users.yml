@@ -6,7 +6,7 @@ jarod:
 
 tyrion:
   name: Tyrion Lannister
-  email: tyrion@lannister.com
+  email: tyrion@railstutorial.com
   password_digest: <%= User.digest('password') %>
 
 jon:
