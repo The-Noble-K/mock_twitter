@@ -1,9 +1,17 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  content: MyText
-  user: one
+tyrion:
+  content: "A Lannister always pays his debts"
+  created_at: <%= 10.minutes.ago %>
 
-two:
-  content: MyText
-  user: two
+jon:
+  content: "I'm a man of the Night's Watch"
+  created_at: <%= 3.years.ago %>
+
+ygritte:
+  content: "You know nothing Jon Snow"
+  created_at: <%= 2.hours.ago %>
+
+arya:
+  content: "Valar Morghulis"
+  created_at: <%= Time.zone.now %>
+
