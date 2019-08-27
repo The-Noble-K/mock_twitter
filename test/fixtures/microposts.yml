@@ -13,5 +13,10 @@ ygritte:
 
 arya:
   content: "Valar Morghulis"
+  created_at: <%= 4.days.ago %>
+
+most_recent:
+  content: "Most Recent Post"
   created_at: <%= Time.zone.now %>
+
 
