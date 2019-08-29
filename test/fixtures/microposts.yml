@@ -2,21 +2,26 @@
 tyrion:
   content: "A Lannister always pays his debts"
   created_at: <%= 10.minutes.ago %>
+  user: jarod
 
 jon:
   content: "I'm a man of the Night's Watch"
   created_at: <%= 3.years.ago %>
+  user: jarod
 
 ygritte:
   content: "You know nothing Jon Snow"
   created_at: <%= 2.hours.ago %>
+  user: jarod
 
 arya:
   content: "Valar Morghulis"
   created_at: <%= 4.days.ago %>
+  user: jarod
 
 most_recent:
   content: "Most Recent Post"
   created_at: <%= Time.zone.now %>
+  user: jarod
 
 
