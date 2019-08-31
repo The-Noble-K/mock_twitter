@@ -30,3 +30,24 @@ micropost_<%= n %>:
   created_at: <%= 42.days.ago %>
   user: jarod
 <% end %>
+
+ants:
+  content: "this is how you get ants!"
+  created_at: <%= 2.years.ago %>
+  user: tyrion
+
+zone:
+  content: "Danger zone!"
+  created_at: <%= 3.days.ago %>
+  user: tyrion
+
+tone:
+  content: "Sarcastic tone"
+  created_at: <%= 10.minutes.ago %>
+  user: jon
+
+van:
+  content: "Dude, wheres my van?"
+  created_at: <%= 4.hours.ago %>
+  user: jon
+
