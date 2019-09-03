@@ -91,6 +91,7 @@ class UserTest < ActiveSupport::TestCase
     assert_not jarod.following?(tyrion)
     jarod.follow(tyrion)
     assert jarod.following?(tyrion)
+    assert tyrion.followers.include?(jarod)
     jarod.unfollow(tyrion)
     assert_not jarod.following?(tyrion)
   end
