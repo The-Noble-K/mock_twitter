@@ -1,15 +1,15 @@
 one:
   follower: jarod
-  followed: lana
+  followed: tyrion
 
 two:
   follower: jarod
-  followed: malory
+  followed: jon
 
 three:
-  follower: lana
+  follower: tyrion
   followed: jarod
 
 four:
-  follower: tyrion
+  follower: sam
   followed: jarod
