@@ -1,15 +1,15 @@
 one:
-  follower: michael
+  follower: jarod
   followed: lana
 
 two:
-  follower: michael
+  follower: jarod
   followed: malory
 
 three:
   follower: lana
-  followed: michael
+  followed: jarod
 
 four:
-  follower: archer
-  followed: michael
+  follower: tyrion
+  followed: jarod
